@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copying_Data_from_Source_to_Target",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
