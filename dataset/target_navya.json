@@ -1,0 +1,23 @@
+{
+	"name": "target_navya",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Navya_DataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "navya_jestha/bronze",
+				"fileSystem": "hackathon2026"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
