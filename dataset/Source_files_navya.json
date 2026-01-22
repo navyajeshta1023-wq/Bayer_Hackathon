@@ -5,6 +5,9 @@
 			"referenceName": "Navya_DataLake",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Navya_Jestha_datasets"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
