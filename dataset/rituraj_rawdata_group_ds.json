@@ -1,0 +1,24 @@
+{
+	"name": "rituraj_rawdata_group_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RiturajAzureDataLakeStoragesink_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Rituraj_Ranjan_Bayer_hackathon/rawdata_for_group_to_use",
+				"fileSystem": "hackathon2026"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,69 @@
+{
+	"name": "SourceDataset_f3r",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Product.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Product Id",
+				"type": "String"
+			},
+			{
+				"name": "Product Name",
+				"type": "String"
+			},
+			{
+				"name": "Size",
+				"type": "String"
+			},
+			{
+				"name": "Colour",
+				"type": "String"
+			},
+			{
+				"name": "Type",
+				"type": "String"
+			},
+			{
+				"name": "Fulfillment Route",
+				"type": "String"
+			},
+			{
+				"name": "Product Group",
+				"type": "String"
+			},
+			{
+				"name": "Supplier Number",
+				"type": "String"
+			},
+			{
+				"name": "Store Number",
+				"type": "String"
+			},
+			{
+				"name": "Selling price",
+				"type": "String"
+			},
+			{
+				"name": "Cost price",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,69 @@
+{
+	"name": "csv_raw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AML_azureblob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Amol Londhe",
+				"container": "hackathon2026"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "SalesOrderId",
+				"type": "String"
+			},
+			{
+				"name": "SalesOrderNo",
+				"type": "String"
+			},
+			{
+				"name": "creationDate",
+				"type": "String"
+			},
+			{
+				"name": "channel",
+				"type": "String"
+			},
+			{
+				"name": "Mode of payment",
+				"type": "String"
+			},
+			{
+				"name": "customerId",
+				"type": "String"
+			},
+			{
+				"name": "StoreID",
+				"type": "String"
+			},
+			{
+				"name": "terminalID",
+				"type": "String"
+			},
+			{
+				"name": "returnOrderId",
+				"type": "String"
+			},
+			{
+				"name": "recordType",
+				"type": "String"
+			},
+			{
+				"name": "Prop_10",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

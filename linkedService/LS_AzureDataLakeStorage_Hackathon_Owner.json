@@ -1,0 +1,11 @@
+{
+	"name": "LS_AzureDataLakeStorage_Hackathon_Owner",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datahackathonazs3187.dfs.core.windows.net/"
+		}
+	}
+}

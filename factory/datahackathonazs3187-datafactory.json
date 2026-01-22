@@ -1,0 +1,9 @@
+{
+	"name": "datahackathonazs3187-datafactory",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dbdb5f16-1ed3-456b-9f58-875d18e44ecf",
+		"tenantId": "fcb2b37b-5da0-466b-9b83-0014b67a7c78"
+	}
+}

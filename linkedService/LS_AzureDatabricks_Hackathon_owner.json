@@ -1,0 +1,14 @@
+{
+	"name": "LS_AzureDatabricks_Hackathon_owner",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405607275476006.6.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/822402fd-6c75-4ce5-a451-29f446c8c034/resourceGroups/DE_Hackathon/providers/Microsoft.Databricks/workspaces/datahackathonazs3187",
+			"existingClusterId": "0119-054420-rrvejdf6"
+		}
+	}
+}
